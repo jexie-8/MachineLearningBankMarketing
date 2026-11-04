@@ -1,0 +1,21 @@
+{
+  "model": "Gradient boosting",
+  "threshold": 0.65,
+  "primary_metric": "f1",
+  "cv_f1": 0.44649503337165575,
+  "validation_f1": 0.4812680115273775,
+  "best_parameters": {
+    "model__min_samples_leaf": 10,
+    "model__max_leaf_nodes": 15,
+    "model__max_iter": 200,
+    "model__max_depth": 10,
+    "model__learning_rate": 0.05,
+    "model__l2_regularization": 10.0,
+    "model__class_weight": "balanced"
+  },
+  "random_state": 202300404,
+  "excluded_features": [
+    "duration"
+  ],
+  "data_sha256": "8a08c48a8d0b28871ff3e1384b441171e1cf6449d9fe97bd392c839c5e79b02d"
+}
